@@ -27,7 +27,7 @@ document.getElementById("passwordInput").addEventListener("keypress", function(e
                 window.location.href = "welcome.html";  // Redirect to the second page
             }, 1000);  // 1000 ms = 1 second to match the fade-out duration
         } else {
-            alert("Invalid password, please try again.");
+            alert("Not quite :)");
         }
     }
 });
