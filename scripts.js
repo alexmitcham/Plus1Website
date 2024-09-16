@@ -9,7 +9,7 @@ const users = {
     "ivory": "Jordan",
     "linen": "Morgan",
     "chalk": "Drew",
-    "cotton": "Pat"
+    "cotton": "Naomi"
 };
 
 // Event listener for when the user presses Enter
