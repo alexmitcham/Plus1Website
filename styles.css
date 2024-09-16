@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stacks the video and input vertically */
+    align-items: center;    /* Centers items horizontally */
+}
+
+.video {
+    width: 300px; /* You can adjust this size based on your needs */
+    margin-bottom: 1px;
+}
+
+#passwordInput {
+    padding: 10px;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    outline: none;
+    border: 1px solid black;
+    background-color: #f0f0f0;
+}
+
+#passwordInput::placeholder {
+    color: #888;
+}
+
+/* This class will apply a fading effect */
+.fade-out {
+    animation: fadeOut 1s forwards; /* 1s for the fade effect duration */
+}
+
+/* Define the keyframes for the fade-out animation */
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Add a fade-in animation to be used on the welcome page */
+.fade-in {
+    animation: fadeIn 1s forwards; /* 1s for the fade-in effect duration */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
