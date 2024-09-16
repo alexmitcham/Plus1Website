@@ -13,19 +13,9 @@ body {
     display: flex;
     flex-direction: column; /* Stacks the video and input vertically */
     align-items: center;    /* Centers items horizontally */
-    /*padding: 20px 10px;  /* Add padding to give space around the text */
-    /*max-width: 1000px;    /* Limit the width of the content */
-    margin: 0 auto;      /* Center the container */
 }
 
-h1 {
-    margin-bottom: 20px; /* Add some space between the greeting and the invitation */
-}
 
-.invitation p {
-    margin-bottom: 10px; /* Add some space between paragraphs */
-    line-height: 1.6;    /* Make the text easier to read */
-}
 
 .video {
     width: 300px; /* You can adjust this size based on your needs */
