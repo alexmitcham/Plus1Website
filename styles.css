@@ -13,8 +13,8 @@ body {
     display: flex;
     flex-direction: column; /* Stacks the video and input vertically */
     align-items: center;    /* Centers items horizontally */
-    padding: 40px 20px;  /* Add padding to give space around the text */
-    max-width: 900px;    /* Limit the width of the content */
+    padding: 20px 10px;  /* Add padding to give space around the text */
+    max-width: 1000px;    /* Limit the width of the content */
     margin: 0 auto;      /* Center the container */
 }
 
