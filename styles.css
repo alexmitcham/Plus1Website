@@ -11,43 +11,35 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 20px;
-    max-width: 600px;
-    margin: 0 auto;
+    flex-direction: column; /* Stacks the video and input vertically */
+    align-items: center;    /* Centers items horizontally */
 }
 
-h1 {
-    font-size: 32px; /* Set a default font size */
-    margin-bottom: 20px;
+.video {
+    width: 300px; /* You can adjust this size based on your needs */
+    margin-bottom: 1px;
 }
 
-p {
-    font-size: 18px; /* Set a default font size */
-    line-height: 1.6;
+#passwordInput {
+    padding: 10px;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    outline: none;
+    border: 1px solid black;
+    background-color: #f0f0f0;
 }
 
-/* Media query for smaller devices (phones, etc.) */
-@media (max-width: 600px) {
-    h1 {
-        font-size: 24px; /* Increase heading size for mobile */
-    }
-
-    p {
-        font-size: 16px; /* Increase paragraph size for mobile */
-    }
-
-    .container {
-        padding: 20px;
-    }
+#passwordInput::placeholder {
+    color: #888;
 }
 
-/* Fade animations */
+/* This class will apply a fading effect */
 .fade-out {
-    animation: fadeOut 1s forwards;
+    animation: fadeOut 1s forwards; /* 1s for the fade effect duration */
 }
 
+/* Define the keyframes for the fade-out animation */
 @keyframes fadeOut {
     0% {
         opacity: 1;
@@ -57,8 +49,9 @@ p {
     }
 }
 
+/* Add a fade-in animation to be used on the welcome page */
 .fade-in {
-    animation: fadeIn 1s forwards;
+    animation: fadeIn 1s forwards; /* 1s for the fade-in effect duration */
 }
 
 @keyframes fadeIn {
