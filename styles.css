@@ -28,20 +28,7 @@ p {
     line-height: 1.6;
 }
 
-/* Media query for smaller devices (phones, etc.) */
-@media (max-width: 600px) {
-    h1 {
-        font-size: 24px; /* Increase heading size for mobile */
-    }
 
-    p {
-        font-size: 16px; /* Increase paragraph size for mobile */
-    }
-
-    .container {
-        padding: 20px;
-    }
-}
 
 /* Fade animations */
 .fade-out {
